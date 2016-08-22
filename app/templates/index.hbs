@@ -3,3 +3,13 @@
 {{#each model.listings as |listing|}}
   {{listing-tile listing=listing}}
 {{/each}}
+
+
+
+<h2> Categories </h2>
+
+<ul>
+  {{#each model.categories as |category|}}
+    <li>{{#link-to 'category' category.id}}{{category.name}}{{/link-to}}</li>
+  {{/each}}
+</ul>

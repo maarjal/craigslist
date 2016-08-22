@@ -34,13 +34,11 @@
     "date": "23-8-2016",
     "category": "animals",
     "image": "http://i.imgur.com/sxycOQY.jpg"
-  }, {
-
-  }],
-  "categories": [{
-    "name": "cars"
-  }, {
-    "name": "animals"
-  }]
+    }],
+    "categories": [{
+      "name": "cars"
+    }, {
+      "name": "animals"
+    }]
 
 }
