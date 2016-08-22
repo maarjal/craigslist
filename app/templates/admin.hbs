@@ -2,7 +2,9 @@
   {{#each model as |listing|}}
   {{admin-tile listing=listing update="update" destroyListing="destroyListing"}}
   {{/each}}
-  {{new-listing saveListing="saveListing"}}
+  {{new-listing saveListing2="saveListing3"}}
 </div>
 
 {{new-category saveCategory="saveCategory"}}
+
+<button {{action 'debug'}}>DEBUG</button>

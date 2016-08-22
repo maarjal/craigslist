@@ -7,7 +7,7 @@ export default Ember.Component.extend({
       this.set('addNewListing', true);
     },
 
-    saveListing() {
+    saveListing1() {
       var params = {
         owner: this.get('owner'),
         title: this.get('title'),
@@ -17,8 +17,9 @@ export default Ember.Component.extend({
         date: this.get('date'),
         image: this.get('image') ? this.get('image'): ""
       };
+      console.log("params: " + params);
       this.set('addNewListing', false);
-      this.sendAction('saveListing', params);
+      this.sendAction('saveListing2', params);
     }
   }
 });

@@ -7,12 +7,12 @@ export default Ember.Route.extend({
   actions: {
     saveCategory(params) {
       var newCategory = this.store.createRecord('category', params);
-      var category = params.category;
-      category.get('categories').addObject(newCategory);
+      var listing = params.listing;
+      listing.get('categories').addObject(newCategory);
       newCategory.save().then(function() {
-        return category.save();
+        return listing.save();
       });
       this.transitionTo('listing', params.listing);
-    },
+    }
   }
 });
