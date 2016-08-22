@@ -5,16 +5,16 @@
     "price": 9000,
     "body": "I am selling a 2012 Honda Civic with 4000 miles on it. Great condition",
     "date": "15-8-2016",
-    "category": "cars",
+    "category": "0",
     "image": "http://static.usnews.rankingsandreviews.com/images/Auto/izmo/332458/2012_honda_civic_cpe_angularfront.jpg"
   }, {
     "owner": "Jim Bob",
     "title": "Wanna buy my grandma?",
     "city": "Portland",
     "price": 90,
-    "body": "I am selling my grandmother from 1943, she is in great condition",
+    "body": "I am selling my grandmother from 1943; she is in great condition",
     "date": "21-8-2016",
-    "category": "animals",
+    "category": "1",
     "image": "http://america.pink/images/3/3/1/3/0/6/2/en/3-old-lady.jpg"
   }, {
     "owner": "Jerry Seinfeld",
@@ -23,16 +23,16 @@
     "price": 50000,
     "body": "My classic Chevy Corvette is on sale immediately. Best offer will be taken",
     "date": "31-8-2016",
-    "category": "cars",
+    "category": "0",
     "image": "http://image.superchevy.com/f/165038519+w640+h426+q80+re0+cr1+ar0+st0/1959-chevrolet-corvette-front-side-view.jpg"
     }, {
     "owner": "Marge Laineste",
     "title": "Selling somebody else's dog",
     "city": "Tallinn",
     "price": 5,
-    "body": "I am selling Sky's dog Bella. She is pretty old and can be quite scary but she still works",
+    "body": "I am selling Sky's dog Bella. She is pretty old and can be quite scary, but she still works",
     "date": "23-8-2016",
-    "category": "animals",
+    "category": "1",
     "image": "http://i.imgur.com/sxycOQY.jpg"
     }],
     "categories": [{

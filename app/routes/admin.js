@@ -29,8 +29,5 @@ export default Ember.Route.extend({
       listing.destroyRecord();
       this.transitionTo('admin');
     },
-    debug() {
-      debugger;
-    }
   }
 });
