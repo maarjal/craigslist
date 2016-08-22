@@ -2,11 +2,11 @@
 
 <!-- Listings available in {{category.name}}: -->
 
-<!-- <ul>
-  {{#each sortedRentals as |rental|}}
-    <li>{{#link-to 'rental' rental.id}}{{rental.owner}}'s {{rental.type}}{{/link-to}}</li>
+<ul>
+  {{#each sortedListings as |listing|}}
+    <li>{{#link-to 'listing' listing.id}}{{listing.owner}}'s {{listing.title}}{{/link-to}}</li>
   {{/each}}
-</ul> -->
+</ul>
 
 
 <!-- <button {{action 'destroyCity' city}}>Delete</button> -->
