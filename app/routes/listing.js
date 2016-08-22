@@ -5,18 +5,14 @@ export default Ember.Route.extend({
     return this.store.findRecord('listing', params.listing_id);
   },
   actions: {
-    update(listing, params) {
-      Object.keys(params).forEach(function(key) {
-        if(params[key]!==undefined) {
-          listing.set(key,params[key]);
-        }
+    saveCategory(params) {
+      var newCategory = this.store.createRecord('category', params);
+      var category = params.category;
+      category.get('categories').addObject(newCategory);
+      newCategory.save().then(function() {
+        return category.save();
       });
-      listing.save();
-      this.transitionTo('index');
+      this.transitionTo('listing', params.listing);
     },
-    destroyListing(listing) {
-      listing.destroyRecord();
-      this.transitionTo('index');
-    }
   }
 });

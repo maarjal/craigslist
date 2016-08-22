@@ -1,0 +1,8 @@
+<div class="container">
+  {{#each model as |listing|}}
+  {{admin-tile listing=listing update="update" destroyListing="destroyListing"}}
+  {{/each}}
+  {{new-listing saveListing="saveListing"}}
+</div>
+
+{{new-category saveCategory="saveCategory"}}
